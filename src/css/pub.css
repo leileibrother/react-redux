@@ -1,0 +1,45 @@
+.navContainer {
+    width: 100%;
+    background-color: #eb4509;
+}
+.content{
+    width: 1200px;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.navBar li {
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+    background-color: #eb4509;
+}
+.navBar li:hover{
+     background-color: #666;
+ }
+
+.navBar li.active{
+     background-color: #666;
+ }
+
+.navBar li a{
+    display: block;
+    height: 40px;
+    color: #fff;
+    padding: 0 20px;
+}
+.header{
+    font-size: 18px;
+    padding: 20px 0;
+}
+.listStyle{
+    margin:10px 0;
+}
+.inputStyle{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
