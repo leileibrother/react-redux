@@ -11,9 +11,6 @@ import counter from 'src/redux/reducer/index'
 
 import {Router} from 'react-router-dom'
 import history from 'src/history/index'
-//import registerServiceWorker from './registerServiceWorker';
-/*import {applyMiddleware} from "redux/index";
-import thunk from "redux-thunk/index";*/
 
 const store = createStore(counter);
 
@@ -29,4 +26,4 @@ ReactDOM.render(
     </div>,
     document.getElementById('root')
 );
-//registerServiceWorker();
+

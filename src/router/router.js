@@ -33,7 +33,7 @@ export default class Routes extends Component {
                         )
                     })
                 }
-                <Route path='*' render={() => <Redirect to='/index' />}/>
+                <Route path='*' render={() => <Redirect to='/redux' />}/>
             </Switch>
         )
     }
